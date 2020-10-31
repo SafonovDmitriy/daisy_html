@@ -1,0 +1,27 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  background-color: rgba(252, 99, 94, 0.97);
+  width: 5vw;
+  height: 5vh;
+  clip-path: polygon(25% 25%, 50% 0, 75% 25%, 75% 75%, 50% 100%, 25% 75%);
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #0c252d;
+  font-family: "PF Encore Sans Pro";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 80.32px;
+  letter-spacing: 0.64px;
+}
+.container__title {
+  font-size: 24px;
+  font-family: "Gotham Pro";
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 15.65px;
+}
